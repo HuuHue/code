@@ -1,0 +1,332 @@
+
+body{
+    margin: 0;
+    padding: 10px;
+    font-family: Arial;
+    box-sizing: border-box;
+    min-width: 100px;
+}
+#wrapper{
+    width: 1382px;
+    margin: 0px auto;
+}
+hr{
+    font-weight: bold
+}
+.header{
+    min-height: 10vh;
+    margin: 0px auto;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    width: 100%;
+}
+.menu{
+    margin: 0px auto;
+    display: inline;
+}
+.menu ul{
+    display: inline;
+}
+.menu-text{
+    margin: 0px auto;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 5%;
+}
+.menu-text li {
+    display: inline;
+    padding: 65px;
+}
+.menu-text li.text a{
+    display: inline;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+#logo img{
+    height: 30px;
+    float: left;
+    padding-left: 20px;
+}
+#cart a{
+    float: right;
+}
+#cart a img {
+    height: 30px;
+    padding-right: 20px;
+}
+.search{
+    background: black;
+    color:white;
+    height: 23px;
+    padding: 16px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 18px;
+}
+.box-search{ 
+    margin: 0px auto;
+    background: #f0f0f0;
+    border: none;
+    outline: none;
+    width: 16%;
+    display: inline-block; 
+    border-radius: 30px;
+    height: 28px;
+}
+.box-search input{
+    border: none;
+    outline: none;
+    background: none;
+    padding: opx;
+    font-weight: bold;
+    
+}
+.box-search button{
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+    padding: 3px;
+    border-radius: 30px; 
+} 
+#name{
+    float: left;
+    margin: auto;
+    padding-right: 42px;
+}
+#slogan{
+    float: right;
+    margin: auto;
+}
+#main{
+    margin: 0px auto;
+    text-align: center;
+}
+.baner{
+    width: 1382px;
+    height: auto;
+    margin: 0px auto;
+    background: #f2f2f2;
+    margin-top: 45px;
+    padding-bottom: 15px;
+    border-radius: 25px;
+}
+.baner img{
+    width: 100%;
+    display: block;
+}
+#baner-slogan{
+    font-size: 50px;
+    font-family: Verdana;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#baner-text{
+    width: 900px;
+    margin: 0px auto;
+    background: white;
+    padding: 10px;
+    border-radius: 25px;
+}
+.shop-text {
+    text-decoration: none;
+    color: white;
+}
+.shop-text p{
+    margin: 0px auto;
+    width: 100px;
+    background: black;
+    padding: 15px;
+    border-radius: 30px;
+    margin-top: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+#column{
+    width: 1382px;
+    display: block;
+    margin: 0px auto;
+}
+#featured{
+    font-size: 30px;
+    display: block;
+}
+#column1{
+    background-image: url(nike/app.webp);
+    background-size: 100%;
+    height: 600px;
+    width: 49.5%;
+    float: left;
+}
+#column2{
+    background-image: url(nike/jordan.jpg);
+    height: 600px;
+    width: 49.5%;
+    float: right;
+}
+#column1 div{
+    margin-top: 72%;
+    margin-left: 30px; 
+    color: white;
+    font-weight: bold;
+}
+#column2 div{
+    margin-top: 72%;
+    margin-left: 30px; 
+    color: white;
+    font-weight: bold;
+}
+#column1 a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding:15px;
+    border-radius: 30px;
+}
+#column2 a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 15px;
+    border-radius: 30px;
+}
+#column1 a p{
+    display: inline;
+}
+#column2 a p{
+    display: inline;
+}
+#column2-text{
+    text-align: center;
+    color: black;
+    background: white;
+    width: 128px;
+    border-radius: 20px;
+    padding: 2px;
+}
+#shoes{
+    margin-top: 60px;
+    width: 100%;
+    display: inline-block;
+}
+#shoes-bgr{
+    display: inline-block;
+    margin: 0px auto;
+    
+}
+.shoes-link{
+    text-decoration: none;
+    color: black;
+    float: left;
+    width: 22%;
+    padding: 20px;
+}
+.shoes-name{
+    font-size: 18px;
+    display: inline-block;
+
+}
+.shoes-link img{
+    margin: 0px auto;
+    width:100%;
+}
+.shoes-price{
+   float: right;
+   color: gray;
+   
+}
+.shoes-ps{
+    display: inline-block;
+    color: gray;
+}
+#baner2{
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 40px;
+}
+#the-latest{
+    font-size: 30px;
+}
+#baner2-text{
+    height: 310px;
+    background-image: url(nike/baner2.webp);
+    background-size: 100%;
+    text-align: center;
+}
+#baner2-text div{
+    width: 400px;
+    margin: 0px auto;  
+    padding: 10px;
+}
+#slogan2{
+    font-family: Verdana;
+    font-size: 65px;
+    font-weight: bold;
+    display: inline;
+  
+}
+#baner2-text a p{
+    background: black;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 30px;
+}
+#bag{
+    margin-top: 60px;
+    width: 100%;
+    display: inline-block;
+}
+#bag-topic{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+#bag-bgr{
+    display: inline-block;
+    margin: 0px auto;
+}
+.bag-link{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    float: left;
+    width: 22%;
+    padding: 20px;
+}
+.bag-img{
+    margin: 0px auto;
+    width:100%;
+}
+.bag-name{
+    font-size: 18px;
+    display: block;
+}
+.bag-price{
+    float: right;
+    color: gray;
+}
+.bag-ps{
+    color: gray;
+    display: inline-block;
+}
+#bag-shop{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+#bag-shop p{
+    background: black; 
+    width: 300px;
+    margin: 0px auto;
+    padding: 7px;
+    border-radius: 30px;
+}
